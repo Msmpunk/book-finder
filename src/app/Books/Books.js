@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Book }  from './Book/Book'
+import { Filter }  from './Filter'
 import './Books.sass';
 
 export default class Books extends Component {
@@ -7,10 +8,7 @@ export default class Books extends Component {
     return (
       <div className="Books">
         <h1>Books</h1>
-        <div className='add__nversion'>
-          <div></div>
-          <button className='btn__fat__blue btn__custom'>+ Nueva Book</button>
-        </div>
+        <Filter/>
         <div className='container__Books'>
           <Book/>
           <Book/>
