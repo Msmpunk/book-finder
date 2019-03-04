@@ -9,7 +9,7 @@ export const SecondNavbar = props => (
         <nav>
             <ul>
                 <SecondLinkNav to='/' activeElement={true} text='Home' icon='fas fa-home'></SecondLinkNav>
-                <SecondLinkNav to='/source' text='Coder Info' icon='fas fa-exchange-alt'></SecondLinkNav>
+                {/* <SecondLinkNav to='/source' text='Coder Info' icon='fas fa-exchange-alt'></SecondLinkNav> */}
             </ul>
         </nav>
     </div>
